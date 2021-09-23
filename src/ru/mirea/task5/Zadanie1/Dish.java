@@ -1,6 +1,6 @@
 package ru.mirea.task5.Zadanie1;
 
-public class Dish {
+public abstract class Dish {
         protected String material;
         protected String color;
 
