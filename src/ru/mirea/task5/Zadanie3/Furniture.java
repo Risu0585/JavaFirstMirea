@@ -1,6 +1,6 @@
 package ru.mirea.task5.Zadanie3;
 
-public class Furniture {
+public abstract class Furniture {
 
     protected String price;
     protected String material;
