@@ -1,6 +1,6 @@
 package ru.mirea.task5.Zadanie2;
 
-public class Dog {
+public abstract class Dog {
     protected String size;
     protected String color;
 
