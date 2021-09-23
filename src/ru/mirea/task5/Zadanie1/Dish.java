@@ -17,7 +17,7 @@ public class Dish {
         }
 
         public void setColor(String color) {
-            color = color;
+            this.color = color;
         }
 
         public Dish(String material, String color) {
