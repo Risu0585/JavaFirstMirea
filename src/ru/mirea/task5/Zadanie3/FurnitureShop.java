@@ -1,6 +1,6 @@
 package ru.mirea.task5.Zadanie3;
 
-public class FurnitureShop {
+public abstract class FurnitureShop {
     protected String city;
 
     public String getCity() {
