@@ -11,7 +11,7 @@ public class Shape
 
     public String toString()
     {
-        return("a " + size + " " + color + " " + name);
+        return(size + " " + color + " " + name);
     }
 
     private String size;
