@@ -1,14 +1,24 @@
 package ru.mirea.task3.task2;
 
-public class Leg {
-    public int leg;
-    public Leg(int legs){
-        leg = legs;
+public class Leg
+{
+    private double length;
+
+    public Leg(double l)
+    {
+        length = l;
     }
-    public boolean countLegs(){
-        if (leg == 2)
-            return true;
-        else
-            return false;
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public String getLength() {
+        return ("Длина ноги равна " + length);
+    }
+
+    public void grow()
+    {
+        length++;
     }
 }
